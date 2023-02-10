@@ -1,3 +1,5 @@
+//Al programa anterior: Si los numeros no son un numero o son menores o iguales a cero, nos lo vuelva a pedir
+
 function numeros() {
   let a = Number(prompt("Introduzca el primer numero"));
   while (isNaN(a) || a <= 0 || a === null) {
